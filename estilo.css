@@ -1,0 +1,81 @@
+html {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(37, 162, 23);
+}
+
+nav {
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(95, 227, 69);
+    padding: 1rem 2rem;
+}
+
+nav:hover {
+    box-shadow: 0 .5rem 1rem rgb(168, 184, 204);
+}
+
+header {
+    padding: 1rem 2rem;
+}
+
+header h1 {
+    text-align: center;
+    color: rgb(93, 206, 206);
+}
+
+body {
+    margin: 0;
+    background-color: rgb(32, 50, 154);
+}
+
+#section {
+    width: 600px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 0.25rem 0;
+}
+
+section article:hover {
+    box-shadow: 0 1rem 1rem rgb(65, 222, 21);
+}
+
+section article h2 {
+    text-align: center;
+    color: blue;
+}
+
+section article h3 {
+    margin: 1rem;
+    color: blueviolet;
+}
+
+section article p {
+    text-align:center;
+}
+
+footer {
+    background-color: rgb(154, 33, 187);
+    padding: 1rem 2rem;
+    color: white;
+}
+
+footer a:hover {
+    color: blue;
+}
+
+footer a:visited {
+    color: blanchedalmond;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: aquamarine;
+    text-decoration: none;
+}
+
